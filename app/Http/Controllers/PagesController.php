@@ -17,4 +17,8 @@ class PagesController extends Controller
     function widgets(){
         return view('pages.widgets');
     }
+
+    function calendar(){
+        return view('pages.calendar');
+    }
 }

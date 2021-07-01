@@ -24,6 +24,7 @@ Route::get('/','App\Http\Controllers\PagesController@welcome');
 });*/
 
 Route::get('/aboutus','App\Http\Controllers\PagesController@aboutus');
+Route::get('/calendar','App\Http\Controllers\PagesController@calendar');
 Route::get('/widgets', function () {
     return view('pages.widgets');
 });
